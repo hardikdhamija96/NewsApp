@@ -1,8 +1,14 @@
 import React from 'react'
+import SearchTag from './SearchTag';
+import '../App.css';
 
 const SearchTagContainer = () => {
   return (
-    <div>SearchTagContainer</div>
+    <div className='searchTagContainer'>
+      <SearchTag/>
+      <SearchTag/>
+      <SearchTag/>
+    </div>
   )
 }
 

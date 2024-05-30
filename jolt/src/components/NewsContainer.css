@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.newsImg{
+    width: 80%;
+    max-height: 200px;
+}
+
+.loading{
+    font-size: 40px;
+    color: #EEEEEE;
+    text-align: center;
+    padding:20px
+}
+
+.newsBox{
+    background-color: #31363F;
+    padding: 50px 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 88%;
+    margin: auto;
+}
+
+.newsConatinerHeading{
+    font-family: "Newsreader", serif;
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 30px;
+}
+
+.newsArticle{
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    background-color: #242b37c8;
+    margin: 18px;
+    border-radius: 10px;
+    color: #EEEEEE;
+    text-align: left;
+}

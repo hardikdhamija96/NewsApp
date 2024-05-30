@@ -1,7 +1,62 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+h1{
   text-align: center;
+  font-size: 50px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  color: #EEEEEE;
 }
+
+h3,h2,p{
+  font-family: "Newsreader", serif;
+}
+
+.app{
+  width: 100%;
+}
+
+.subMainHeading{
+  text-align: center;
+  color: #EEEEEE;
+}
+
+.mainHeading{
+  text-decoration: dotted;
+}
+
+.searchTagContainer{
+  display: flex;
+  width: 100%;
+  /* background-color: aquamarine; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+}
+
+.newsSearchBar{
+  
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #e8e8e8;
+    /* box-shadow: 5px 5px 60px #c5c5c5,
+       -5px -5px 60px #ffffff; */
+    transition: 0.3s;
+    margin: 30px;
+    width: 50vw;
+
+}
+
+.newsSearchBar:focus {
+  outline-color: #e8e8e8;
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px #c5c5c5,
+     inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
+ }
+
+
 
