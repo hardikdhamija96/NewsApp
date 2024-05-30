@@ -29,11 +29,12 @@ h3,h2,p{
 
 .searchTagContainer{
   display: flex;
-  width: 100%;
+  width: 90%;
   /* background-color: aquamarine; */
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 2rem;
+  margin: auto;
 }
 
 .newsSearchBar{
